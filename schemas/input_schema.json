@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["objective", "context"],
+  "properties": {"objective": {"type": "string", "minLength": 1}, "context": {"type": "string"}, "constraints": {"type": "array", "items": {"type": "string"}}, "human_approval": {"type": "boolean", "default": false}},
+  "additionalProperties": true
+}
