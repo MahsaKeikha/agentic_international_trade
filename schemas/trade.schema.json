@@ -1,0 +1,1 @@
+{"type":"object","properties":{"origin":{"type":"string"},"destination":{"type":"string"},"goods":{"type":"array"},"parties":{"type":"array"}}}
